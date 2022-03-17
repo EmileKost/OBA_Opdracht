@@ -30,5 +30,38 @@ Na het ophalen van de data, moeten twee soorten data gerendert worden. De eerste
 2. Dezelfde functie wordt gebruikt voor de boek data. Dezelfde functie is deels hetzelfde. Zo moet er een andere waarde in de parameters staan, en moet d HTML op een andere plaats worden ingeladen. In plaats van (data) geven we (bookData) mee waardoor de juiste content wordt gerendert. Ook wordt de data op een andere plek gerendert in een andere constante variabele. Hierbij is het <p> element met een korte samenvatting weggehaald op ruimte te besparen.
   
 <h2>De zoekfunctie</h2>
+Om het voor de gebruiker een toegankelijke website te maken moet het voor de gebruiker gemakkelijk zijn om content te kunnen opzoeken.
+Voor de zoekfunctie hebben we drie verschillende onderdelen nodig. De eerste is een eventListener waarbij de waarde van de ingevulde data wordt meegegeven aan de getSearchData() en daarna wordt de data gerendert met de renderSearchData().
+
+<img width="775" alt="Schermafbeelding 2022-03-17 om 20 59 04" src="https://user-images.githubusercontent.com/70690100/158886940-08700bdb-3790-43f4-bede-4267f0ae68df.png">
+1. Allereerst maken we in de script.js de eventListener aan voor de zoekbalk. De functie wordt geactiveerd doordat de input ge-"submit" wordt. Tegelijkertijd wordt de functie preventDefault aangeroepen die ervoor zorgt dat de functie niet afspeelt zonder waarde. Hierna wordt de variable searchBalk aangemaakt. Daarnaast wordt de variabele searchValue aangemaakt, en deze is gelijk aan de .value van searchBalk. Voordat de zoekfunctie verder kan worden uitgevoerd wordt eerste al de eerder geplaatste content weggehaald door middel van de removeContent() functie. Door de for loop wordt uiteindelijk elk apart item weggehaald en wordt er plaats gemaakt voor de resultaten van de zoekfunctie. Nu wordt alleen nog de searchData aangeroepen en wordt de waarde searchValue in de parameter meegegeven. Ook wordt nog de functie removeContent() aangeroepen. 
+
+<img width="1040" alt="Schermafbeelding 2022-03-17 om 20 58 34" src="https://user-images.githubusercontent.com/70690100/158890877-0f8c0864-139c-4988-aba0-e0c554f2901c.png">
+2. Met de function searchData wordt de data van de zoekopdracht opgehaald. De event listener heeft de waarde searchValue vanuit de searchBalk meegegeven aan de functie. Inplaats van "query" wordt nu searchValue aan de url toegevoegd. De link plus de searchValue is de searchInput. Deze wordt weer meegegeven aan de fetch functie die daadwerkelijk de data ophaald. Nu de data eenmaal is opgehaald moet deze alleen nog gerendert worden.
+
+<img width="743" alt="Schermafbeelding 2022-03-17 om 20 58 46" src="https://user-images.githubusercontent.com/70690100/158891231-0c00a6b4-2a48-4776-b930-293d6ba90542.png">
+3. Bij de render functie wordt de waarde searchInput en searchValue meegegeven. Daarna wordt de data hetzelfde gerendert als de anderen. Door middel van de forEach functie wordt uiteindelijk de data gerendert op de website.
+
+<h2>Features</h2>
+- Weergeven basiskennis ondernemerschap
+- Boekenlijst voor jonge ondernemers
+- Zoeken naar al het soort content voor jonge ondernemers
+- Skeleton state
+- Error state
+- Loading state + animatie
+
+<h2>Wat had ik nog willen doen?</h2>
+Ik had helaas op het einde heel veel problemen met de "too many request" issue. Hierdoor heb ik met veel features niet of nauwlijks kunnen experimenteren waar ik dan ook heel erg van baal. 
+Deze features had ik nog willen toevoegen:
+- Carroussel met daarin de boeken
+- Data inladen voor evenementen
+- Detailspagina voor boeken
+
+
+
+
+
+
+
 
 
