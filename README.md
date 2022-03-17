@@ -6,8 +6,9 @@ Vanuit de OBA kregen we drie verschillende cases waaruit we konden kiezen. Ik ko
 Om de content zo goed mogelijk aan de gebruiker mee te geven heb ik besloten om een soort OBA x Ondernemerschap actie site te maken. Deze website is speciaal bedoelt voor jonge ondernemers die of al veel weten, of nog helemaal moeten beginnen. Mijn website moet ervoor zorgen dat de gebruiker gemakkelijk basiskennis over ondernemen kan vinden, en moet het mogelijk maken om alle soort content over ondernemerschap te kunnen opzoeken. De website moet gemakkelijk toegankelijk zijn en het overzichtelijk maken van het vinden van content.
 
 <h2>Vernieuwd OBA x Ondernemerschap logo</h2>
-Om de actiesite aantrekkelijker voor jongeren te maken heb ik besloten om een apart logo te maken die speciaal in het teken staat van jonge ondernemers. Dit om de website te onderscheiden van de normale OBA website.
-![oba-logo2](https://user-images.githubusercontent.com/70690100/158877172-23ca0ed0-fa86-42bb-9ec5-2fffcf7855c3.jpg)
+Om de actiesite aantrekkelijker voor jongeren te maken heb ik besloten om een apart logo te maken die speciaal in het teken staat van jonge ondernemers. Di
+t om de website te onderscheiden van de normale OBA website.
+<img width=""500px"src="https://user-images.githubusercontent.com/70690100/158877532-1a868160-059d-417d-b958-a9b3728eccef.jpg">
 
 <h2>Data ophalen</h2>
 Om te beginnen moest ik eerst natuurlijk de data van de API fetchen. Doordat er wat problemen waren met de toegankelijkeid kreeg iedereen een eigen key. In de getData() functie wordt uiteindelijk deze key toegewezen aan de URL waardoor de API data toegankelijk werd.
