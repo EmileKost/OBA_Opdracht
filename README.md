@@ -8,7 +8,7 @@ Om de content zo goed mogelijk aan de gebruiker mee te geven heb ik besloten om 
 <h2>Vernieuwd OBA x Ondernemerschap logo</h2>
 Om de actiesite aantrekkelijker voor jongeren te maken heb ik besloten om een apart logo te maken die speciaal in het teken staat van jonge ondernemers. Di
 t om de website te onderscheiden van de normale OBA website.
-<img width=""500px"src="https://user-images.githubusercontent.com/70690100/158877532-1a868160-059d-417d-b958-a9b3728eccef.jpg">
+<img width=""500"src=alt="foto van logo" https://user-images.githubusercontent.com/70690100/158877532-1a868160-059d-417d-b958-a9b3728eccef.jpg">
 
 <h2>Data ophalen</h2>
 Om te beginnen moest ik eerst natuurlijk de data van de API fetchen. Doordat er wat problemen waren met de toegankelijkeid kreeg iedereen een eigen key. In de getData() functie wordt uiteindelijk deze key toegewezen aan de URL waardoor de API data toegankelijk werd.
