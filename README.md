@@ -54,6 +54,7 @@ Voor de zoekfunctie hebben we drie verschillende onderdelen nodig. De eerste is 
 <h2>Wat had ik nog willen doen?</h2>
 Ik had helaas op het einde heel veel problemen met de "too many request" issue. Hierdoor heb ik met veel features niet of nauwlijks kunnen experimenteren waar ik dan ook heel erg van baal. 
 Deze features had ik nog willen toevoegen:
+
 * Carroussel met daarin de boeken
 * Data inladen voor evenementen
 * Detailspagina voor boeken
