@@ -44,6 +44,7 @@ export function renderBookData(Bookdata) {
                   <img src="${
                     item.coverimages ? item.coverimages[1] : 'Geen samenvatting'
                   }">
+                  <p id="korte-samenvatting2">${item.summaries ? item.summaries[0] : 'Geen samenvatting'}</p>
                 </article>
               `;
         boekContent.insertAdjacentHTML('beforeend', bookContent);
