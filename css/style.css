@@ -71,6 +71,10 @@ h1 {
     h1 {
         font-size: 20px;
     }
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
 
 
@@ -158,6 +162,7 @@ article img:hover {
     height: 80px;
     width: 180px;
     padding: 2%;
+    margin-top: 0;
 }
 
 #korte-samenvatting2 {
