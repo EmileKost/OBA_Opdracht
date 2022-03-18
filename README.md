@@ -43,21 +43,22 @@ Voor de zoekfunctie hebben we drie verschillende onderdelen nodig. De eerste is 
 3. Bij de render functie wordt de waarde searchInput en searchValue meegegeven. Daarna wordt de data hetzelfde gerendert als de anderen. Door middel van de forEach functie wordt uiteindelijk de data gerendert op de website.
 
 <h2>Features</h2>
-- Weergeven basiskennis ondernemerschap
-- Boekenlijst voor jonge ondernemers
-- Zoeken naar al het soort content voor jonge ondernemers
-- Skeleton state
-- Error state
-- Loading state + animatie
+* Weergeven basiskennis ondernemerschap
+* Boekenlijst voor jonge ondernemers
+* Zoeken naar al het soort content voor jonge ondernemers
+* Skeleton state
+* Error state
+* Loading state + animatie
 
 <h2>Wat had ik nog willen doen?</h2>
 Ik had helaas op het einde heel veel problemen met de "too many request" issue. Hierdoor heb ik met veel features niet of nauwlijks kunnen experimenteren waar ik dan ook heel erg van baal. 
 Deze features had ik nog willen toevoegen:
-- Carroussel met daarin de boeken
-- Data inladen voor evenementen
-- Detailspagina voor boeken
+* Carroussel met daarin de boeken
+* Data inladen voor evenementen
+* Detailspagina voor boeken
 
-
+<h2>Link naar de website</h2>
+https://emilekost.github.io/OBA_Opdracht/
 
 
 
