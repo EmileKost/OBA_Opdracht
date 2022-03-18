@@ -165,19 +165,6 @@ article img:hover {
     margin-top: 0;
 }
 
-#korte-samenvatting2 {
-    opacity: 0;
-}
-
-#korte-samenvatting2:hover {
-    border-bottom: 3px solid #ff0000;
-    border-left: 2px solid #ff0000;
-    background-color: lightgrey;
-    opacity: 100%;
-    height: 80px;
-    width: 180px;
-    padding: 2%;
-}
 
 /* #korte-samenvatting:hover {
     border-bottom: 3px solid #ff0000;
@@ -342,6 +329,7 @@ button {
 button:hover {
     font-weight: bolder;
     box-shadow: 4px black;
+    width: 100px;
 }
 
 @media screen and (max-width: 600px) {
