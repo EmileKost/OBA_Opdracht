@@ -43,7 +43,8 @@ Voor de zoekfunctie hebben we drie verschillende onderdelen nodig. De eerste is 
 3. Bij de render functie wordt de waarde searchInput en searchValue meegegeven. Daarna wordt de data hetzelfde gerendert als de anderen. Door middel van de forEach functie wordt uiteindelijk de data gerendert op de website.
 
 <h2>Features</h2>
-* Weergeven basiskennis ondernemerschap
+
+* Weergeven basiskennis ondernemerschap 
 * Boekenlijst voor jonge ondernemers
 * Zoeken naar al het soort content voor jonge ondernemers
 * Skeleton state
